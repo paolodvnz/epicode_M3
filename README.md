@@ -57,3 +57,20 @@ Classificazione del dataset **Wine** tramite due algoritmi supervisionati - **K-
 **Librerie:** `scikit-learn`, `pandas`, `numpy`, `matplotlib`
 
 ---
+
+### 4. Progetto Finale — Regressione sul Dataset Diabetes
+
+**File:** [`final_project_m3.ipynb`]
+
+Pipeline completa di Machine Learning per la **regressione**, applicata al dataset **Diabetes** di scikit-learn. L'obiettivo è stimare la progressione della malattia a un anno dalla misurazione basale, confrontando e ottimizzando diversi modelli predittivi.
+
+**Pipeline:**
+1. **Data Exploration & Preprocessing** — analisi descrittiva, visualizzazioni, train/test split
+2. **Confronto modelli** — `LinearRegression`, `DecisionTreeRegressor`, `Ridge`, `Lasso`, `KNeighborsRegressor`, `SVR` con K-Fold CV e NMSE
+3. **Hyperparameter Tuning** — Grid Search sul modello migliore, valutazione finale con MSE e R²
+4. **Learning Curves** — analisi bias/varianza, overfitting/underfitting
+5. **Data Reduction & Visualizzazione** — PCA a 2 componenti, plot del piano di regressione
+
+**Librerie:** `scikit-learn`, `pandas`, `numpy`, `matplotlib`, `seaborn`
+
+---
